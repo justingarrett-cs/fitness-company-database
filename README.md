@@ -8,6 +8,12 @@ This project demonstrates the design and implementation of a relational database
 
 The project began with an ER model that was converted into a relational schema and implemented using primary keys, foreign keys, and database constraints.
 
+## ER Diagram
+
+The following ER diagram shows the database structure and relationships between fitness centers, rooms, people, trainers, customers, and fitness sessions.
+
+![Fitness Company ER Diagram](er-diagram.png)
+
 ## Technologies Used
 
 - Oracle SQL
@@ -71,3 +77,27 @@ An audit logging system was implemented using a database trigger. The trigger re
 This project strengthened my understanding of relational database design and SQL. I gained experience converting an ER model into a relational schema, implementing table relationships, writing advanced SQL queries, creating reusable views, and using triggers to automate database operations.
 
 It also helped me understand how relational databases can be used to organize, retrieve, and analyze information for a real-world business system.
+
+## Project Files
+
+Explore the SQL implementation:
+
+- [Database Schema](sql/01_schema.sql)
+- [Sample Data](sql/02_sample_data.sql)
+- [SQL Query Examples](sql/03_queries.sql)
+- [Database Views](sql/04_views.sql)
+- [Audit Logging Trigger](sql/05_audit_trigger.sql)
+- [Window Function Example](sql/06_window_function.sql)
+
+## Key Skills Demonstrated
+
+- Relational database design
+- Oracle SQL and PL/SQL
+- ER modeling
+- Primary and foreign key relationships
+- JOINs and aggregate queries
+- Nested and correlated subqueries
+- Database views
+- Triggers and audit logging
+- Window functions
+- Data integrity and database constraints
